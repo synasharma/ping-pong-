@@ -1,0 +1,62 @@
+body
+{
+    font-family:monospace;
+    text-align:center;
+    
+}
+h1
+{
+    font-size:35px !important;
+    margin-left:155px;
+}
+
+.heading
+{
+    float:right !important;
+    margin:10px;
+   
+}
+.mc
+{
+    font-size:20px !important;
+}
+
+#play,#reload
+{
+    font-size:25px;
+}
+
+.footer
+{
+    bottom:0;
+    position:fixed;
+    width:100%;
+    line-height:2;
+    background-color: red;
+    color:white;
+   margin:0px;
+   font-weight: bold;
+}
+
+.modal-header button{
+    display:inline-block;
+    color:black;
+
+}
+.modal-dialog
+{
+    width:100%;
+    text-align:left;
+    
+}
+
+.modal-body
+{
+    font-size:20px !important;
+}
+
+canvas{
+    border:5px solid red;
+    border-radius:5%;
+    
+}

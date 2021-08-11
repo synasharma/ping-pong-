@@ -1,0 +1,52 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="https://wallpapercave.com/wp/wp3660106.jpg">
+
+    <h1 class="btn btn-info">Ping the Pong <img src="icons8-ping-pong-48.png"></h1>
+    <div class="btn btn-warning heading">
+        <button class="btn btn-info mc" data-toggle="modal" data-target="#myModal">Instructions</button>
+    </div>
+    <div id="myModal" class="modal fade">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                <h3>Instructions</h3>
+            </div>
+            <div class="modal-body">
+                <ul style="list-style:none;">
+                    <li>First keep your laptop screen straight</li><br>
+                       <li>Move yourself approximately 3-4 feet away from the laptop</li> <br>
+                      <li> Move your right wrist in an ascending and decending manner, a red dot should appear on your right wrist</li><br>
+                      <li>  Now press the play button, and again move yourself 3-4 feet away from laptop</li><br>
+                      <li>  The red paddel is your paddel, that will move as per the movement of your right wrist</li><br>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <button class="btn btn-warning" id="play" onclick="play()">Play</button><br><br>
+    <h3 style="font-size:25px;" id="status" class="btn btn-info"></h3><br><br>
+    <div id="canvas"></div>
+    <button class="btn btn-warning" id="reload" onclick="reload()">Reload</button><br><br>
+    <div id="game-console"></div>
+    <h4 class="footer">Made by Syna Sharma</h4>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
